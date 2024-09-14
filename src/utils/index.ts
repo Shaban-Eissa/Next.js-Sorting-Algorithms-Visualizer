@@ -1,10 +1,10 @@
-import { SortingAlgorithmType } from "../types";
+import { SortingAlgorithmType } from "@/types";
 
-import { generateBubbleSortAnimationArray } from "../algorithms/bubbleSort";
-import { generateSelectionSortAnimationArray } from "../algorithms/selectionSort";
+import { generateSelectionSortAnimationArray } from "@/algorithms/selectionSort";
 import { generateInsertionSortAnimationArray } from "@/algorithms/insertionSort";
-import { generateMergeSortAnimationArray } from "../algorithms/mergeSort";
-import { generateQuickSortAnimationArray } from "../algorithms/quickSort";
+import { generateMergeSortAnimationArray } from "@/algorithms/mergeSort";
+import { generateQuickSortAnimationArray } from "@/algorithms/quickSort";
+import { generateBubbleSortAnimationArray } from "@/algorithms/bubbleSort";
 
 export function generateRandomNumberFromInterval(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1) + min);
