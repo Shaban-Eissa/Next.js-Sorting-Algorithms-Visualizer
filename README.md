@@ -10,24 +10,21 @@ A powerful sorting visualizer built with **Next.js**, **TypeScript**, and **Tail
 - **Real-time Visualization**: Step-by-step visualization of how sorting algorithms work.
 - **Animations**: Smooth transitions and animations to enhance the user experience.
 
+## Demo
+
+<img src="https://github.com/user-attachments/assets/5b30e1ca-2c90-4930-8da1-f7f9e8c37b08" alt="Sorting Visualizer Demo" width="100%">
+
+<img src="https://github.com/user-attachments/assets/855c9844-db92-41e5-93ce-156d863de792" alt="Sorting Visualizer Demo" width="100%">
+
+You can try the live demo [here](https://sorting-algorithms-visualizer-beta.vercel.app/).
+
 ## Built With
 
 - [Next.js 14 (App Router)](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 
-## Getting Started
-
-Follow these instructions to set up the project on your local machine.
-
-### Prerequisites
-
-Make sure you have the following tools installed:
-
-- **Node.js**
-- **npm** or **yarn** (for package management)
-
-### Installation
+## Usage
 
 1. **Clone the repository**:
 
@@ -47,31 +44,15 @@ Make sure you have the following tools installed:
    npm install
    ```
 
-   Or, if you're using **yarn**:
-
-   ```bash
-   yarn install
-   ```
-
-### Usage
-
-To start the application locally:
-
-1. **Run the development server**:
+4. **Run the development server**:
 
    ```bash
    npm run dev
    ```
 
-   Or, using **yarn**:
+5. **Open the application** in your browser: Navigate to http://localhost:3000.
 
-   ```bash
-   yarn dev
-   ```
-
-2. **Open the application** in your browser: Navigate to http://localhost:3000.
-
-### Available Sorting Algorithms
+## Available Sorting Algorithms
 
 - **Bubble Sort**
 - **Selection Sort**
