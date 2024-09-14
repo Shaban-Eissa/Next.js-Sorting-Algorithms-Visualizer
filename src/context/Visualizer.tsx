@@ -1,10 +1,5 @@
 "use client";
 
-import { AnimationArrayType, SortingAlgorithmType } from "../types";
-import {
-  MAX_ANIMATION_SPEED,
-  generateRandomNumberFromInterval,
-} from "../utils";
 import React, {
   ReactNode,
   createContext,
@@ -12,6 +7,9 @@ import React, {
   useEffect,
   useState,
 } from "react";
+
+import { AnimationArrayType, SortingAlgorithmType } from "@/types";
+import { MAX_ANIMATION_SPEED, generateRandomNumberFromInterval } from "@/utils";
 
 interface SortingAlgorithmContextType {
   arrayToSort: number[];
