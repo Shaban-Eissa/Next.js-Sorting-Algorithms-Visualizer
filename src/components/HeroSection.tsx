@@ -16,7 +16,10 @@ export const HeroSection = () => {
             <h1 className="mb-1 pb-4 max-w-xl bg-gradient-to-t from-[#6d6d6d] to-[#ffffff] bg-clip-text text-center leading text-5xl text-transparent font-medium ">
               Sorting Visualizer For Algorithms
             </h1>
-            <p className="text-gray-300 text-sm leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
+            <p
+              className="text-gray-300 text-sm leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center 
+            "
+            >
               Managing sorting algorithms has never been easier. Visualize a
               selection of different sorting algorithms. You can also adjust the
               speed of the animation to see how the algorithms work.
