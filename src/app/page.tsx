@@ -1,17 +1,20 @@
 "use client";
 
-import { FaPlayCircle } from "react-icons/fa";
 import { RxReset } from "react-icons/rx";
+import { FaPlayCircle } from "react-icons/fa";
 
-import { HeroSection, Select } from "@/components";
-import { Slider } from "@/components";
-import { useSortingAlgorithmContext } from "@/context/Visualizer";
-import { SortingAlgorithmType } from "@/types";
 import {
   algorithmOptions,
   generateAnimationArray,
   sortingAlgorithmsData,
 } from "@/utils";
+
+import { SortingAlgorithmType } from "@/types";
+
+import { Slider } from "@/components";
+import { HeroSection, Select } from "@/components";
+
+import { useSortingAlgorithmContext } from "@/context/Visualizer";
 
 export default function Home() {
   const {
