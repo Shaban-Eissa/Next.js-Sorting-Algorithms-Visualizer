@@ -1,5 +1,5 @@
 import React from "react";
-import { SelectOptionsType } from "../types";
+import { SelectOptionsType } from "@/types";
 
 export const Select = ({
   options,
