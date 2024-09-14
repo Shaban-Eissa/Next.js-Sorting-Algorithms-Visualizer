@@ -1,4 +1,4 @@
-import { MAX_ANIMATION_SPEED, MNI_ANIMATION_SPEED } from "../utils";
+import { MAX_ANIMATION_SPEED, MNI_ANIMATION_SPEED } from "@/utils";
 
 export const Slider = ({
   min = MNI_ANIMATION_SPEED,
