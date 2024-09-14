@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export const HeroSection = () => {
@@ -24,7 +25,11 @@ export const HeroSection = () => {
             </p>
           </div>
           <div className="flex flex-row gap-3">
-            <button className="inline-flex bg-white items-center justify-center rounded-md text-sm font-medium text-primary-foreground h-10 px-4 py-2">
+            <Link
+              prefetch={true}
+              href="https://github.com/Shaban-Eissa/Next.js-Sorting-Algorithms-Visualizer"
+              className="inline-flex cursor-pointer bg-white items-center justify-center rounded-md text-sm font-medium text-primary-foreground h-10 px-4 py-2"
+            >
               Go to GitHub{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +46,7 @@ export const HeroSection = () => {
                 <path d="M5 12h14"></path>
                 <path d="m12 5 7 7-7 7"></path>
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
