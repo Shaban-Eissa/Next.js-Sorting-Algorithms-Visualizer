@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorting Visualizer
+
+A powerful sorting visualizer built with **Next.js**, **TypeScript**, and **TailwindCSS**. This app provides an interactive visualization of various sorting algorithms with adjustable speed, making it an excellent tool for understanding sorting techniques and computer science fundamentals.
+
+## Features
+
+- **Sorting Algorithms**: Supports multiple algorithms such as Bubble Sort, Selection Sort, Merge Sort, Quick Sort, etc.
+- **Adjustable Speed**: Control the speed of the sorting visualization.
+- **Responsive Design**: Clean and responsive UI built with TailwindCSS.
+- **Real-time Visualization**: Step-by-step visualization of how sorting algorithms work.
+- **Animations**: Smooth transitions and animations to enhance the user experience.
+
+## Built With
+
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to set up the project on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have the following tools installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js**
+- **npm** or **yarn** (for package management)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Installation
 
-## Learn More
+1. **Clone the repository**:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/Shaban-Eissa/Next.js-Sorting-Algorithms-Visualizer
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Navigate into the project directory**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   cd Next.js-Sorting-Algorithms-Visualizer
+   ```
 
-## Deploy on Vercel
+3. **Install dependencies**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   Or, if you're using **yarn**:
+
+   ```bash
+   yarn install
+   ```
+
+### Usage
+
+To start the application locally:
+
+1. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+   Or, using **yarn**:
+
+   ```bash
+   yarn dev
+   ```
+
+2. **Open the application** in your browser: Navigate to http://localhost:3000.
+
+### Available Sorting Algorithms
+
+- **Bubble Sort**
+- **Selection Sort**
+- **Merge Sort**
+- **Quick Sort**
+- **Insertion Sort**
+
+## Customization
+
+You can easily add more sorting algorithms or modify the visualizer:
+
+1. Sorting algorithms can be added in the `Algorithms` folder.
+2. The speed controls can be adjusted in the `Visualizer.tsx` context.
+
+## Contributing
+
+You are welcome to contribute to this project. Feel free to open issues, create pull requests, or suggest new features.
