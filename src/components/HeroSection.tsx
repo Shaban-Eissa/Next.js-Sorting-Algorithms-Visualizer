@@ -1,7 +1,5 @@
 import React from "react";
 
-import { MoveRight, PhoneCall } from "lucide-react";
-
 export const HeroSection = () => {
   return (
     <div className="w-full">
@@ -17,7 +15,7 @@ export const HeroSection = () => {
               Sorting Visualizer For Algorithms
             </h1>
             <p
-              className="text-gray-300 text-sm leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center 
+              className="text-gray-300 text-sm leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center
             "
             >
               Managing sorting algorithms has never been easier. Visualize a
